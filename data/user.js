@@ -1,0 +1,1 @@
+module.exports = 'https://randomuser.me/api/?results=3'
