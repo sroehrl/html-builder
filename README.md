@@ -59,6 +59,8 @@ Ergebnis:
 ```
 
 Im Ordner "data" befindliche JSON-Dateien werden automatisch an templates unter ihrem Namen übergeben.
+
+Im Order "data" befindliche JS-Dateien können GET-urls enthalten, die auf den Dateinamen ausgegeben werden.
  
 
 Weitere Beispiele im Template data-examples sowie auf https://liquidjs.com/tags/overview.html
