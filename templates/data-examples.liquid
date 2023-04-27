@@ -1,6 +1,11 @@
 {% layout 'shell/root.liquid' %}
 {% block content %}
 
+{% comment %}
+
+Daten können auf drei verschiedenen Weisen benutzt werden.
+
+{% endcomment %}
 <h2 class="text-lg font-semibold mb-3">1. Direkte Angabe von Daten</h2>
 {% assign names = "TB, RE, SR" | split: ', ' %}
 {% for var in names %}
